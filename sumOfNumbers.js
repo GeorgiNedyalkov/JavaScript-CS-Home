@@ -1,13 +1,13 @@
-function sumSequenceOfNumbers (numberOne, numberTwo) {
+function sumSequenceOfNumbers(numberOne, numberTwo) {
     let n = Number(numberOne);
     let m = Number(numberTwo);
     let sum = 0;
 
     for (let i = n; i <= m; i++) {
-        sum += i; 
+        sum += i;
     }
 
-    return sum;    
+    return sum;
 }
 
-console.log(sumSequenceOfNumbers('1', '5'));
+console.log(sumSequenceOfNumbers('1', '10'));
